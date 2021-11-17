@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "97300060611",
+    "project_id": "barberv1",
+    "storage_bucket": "barberv1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:97300060611:android:b6e0595b2bc536737b4576",
+        "android_client_info": {
+          "package_name": "limitless.barber"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "97300060611-nnciq7o297s8alsq78piek3gh917kkj2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "limitless.barber",
+            "certificate_hash": "6efa2c4fe93d65ff82f886b590261c78357eb163"
+          }
+        },
+        {
+          "client_id": "97300060611-4homlnu58hgqol8125fkbikinu65pgng.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYoFr99uXpo0Kro7sJSs-rEV_t60hrIx8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "97300060611-4homlnu58hgqol8125fkbikinu65pgng.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
