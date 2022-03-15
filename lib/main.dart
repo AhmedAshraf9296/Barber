@@ -21,24 +21,24 @@ class MyHttpOverrides extends HttpOverrides{
 
 
 
-void main() async{
-  HttpOverrides.global = new MyHttpOverrides();
-  WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp();
-  runApp(MyApp());
-}
-
-class MyApp extends StatelessWidget {
-  // FSBStatus status ;
-  // This widget is the root of your application.
-  @override
-  Widget build(BuildContext context) {
-    return GetMaterialApp(
-      debugShowCheckedModeBanner: false,
-      initialBinding: Binding(),
-      home: Scaffold(
-        body: ControlView(),
-      ),
-    );
+  void main() async{
+    HttpOverrides.global = new MyHttpOverrides();
+    WidgetsFlutterBinding.ensureInitialized();
+    await Firebase.initializeApp();
+    runApp(MyApp());
   }
-}
+
+  class MyApp extends StatelessWidget {
+    // FSBStatus status ;
+    // This widget is the root of your application.
+    @override
+    Widget build(BuildContext context) {
+      return GetMaterialApp(
+        // debugShowCheckedModeBanner: false,
+        initialBinding: Binding(),
+        home: Scaffold(
+          body: ControlView(),
+        ),
+      );
+    }
+  }

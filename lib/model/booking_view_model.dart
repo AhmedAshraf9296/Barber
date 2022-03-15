@@ -408,7 +408,7 @@ class BookingViewModel extends GetxController {
     ProductsData productsData = ProductsData();
     _loading.value = true;
     var data = await productsData.getProductsFbase();
-    print(productsData.list[0].description);
+    // print(productsData.list[0].description);
       for (var i = 0; i < productsData.list.length; i++) {
         _productListModel.add(
           ProductModel(

@@ -30,6 +30,4 @@ class BranchData  extends GetConnect  {
     return response.data;
   }
 
-
-
 }
